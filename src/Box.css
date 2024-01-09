@@ -1,0 +1,15 @@
+.box {
+  min-height: 300px;
+  max-height: max-content;
+  border: 1px solid salmon;
+  border-radius: 10px;
+}
+.circle {
+  cursor: pointer;
+}
+.color:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
